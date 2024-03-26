@@ -1,0 +1,56 @@
+<Items>
+<weapon>
+sword
+its a sword
+2
+1
+<weapon>
+spear
+its a spear
+1
+2
+</Items>
+
+<Room>
+StartRoom
+its the starting room
+</Room>
+
+<Room>
+Hallway
+its a hallway
+
+</Room>
+
+<Room>
+TreasureRoom
+its the treasure room
+</Room>
+
+<Connection>
+StartRoom
+North
+Hallway
+TwoWay
+</Connection>
+
+<Connection>
+Hallway
+North
+TreasureRoom
+TwoWay
+</Connection>
+
+<Enemy>
+Bandit
+its a bandit
+sword
+10
+StartRoom
+
+<Enemy>
+Tough Bandit
+its a slightly tougher bandit
+spear
+15
+Hallway
